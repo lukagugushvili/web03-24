@@ -3,13 +3,29 @@ let array = [1, 2, 3, 4, 5];
 console.log(array[0] + array[1] + array[2] + array[3] + array[4]);
 
 // #2
-let properties = ['luka', '19', 'rustavi'];
+let personInfo = [
+    person1 = {
+        firstName: 'luka',
+        age: 19,
+        address: 'rustavi'
+    },
+    person2 = {
+        firstName: 'levani',
+        age: 20,
+        address: 'rustavi'
+    },
+    person2 = {
+        firstName: 'nika',
+        age: 21,
+        address: 'tbilisi'
+    },
+];
 
 // #3
-console.log(`my name is ${properties[0]} my age is ${properties[1]} addres ${properties[2]}`);
+console.log(`my name is ${personInfo[0].firstName} my age is ${array[0]} addres ${personInfo[2].address}`);
 
 // #4
-if (properties[1] >= 18) {
+if (personInfo[1].age >= 18) {
     console.log("I am a teenager")
 }
 else {
